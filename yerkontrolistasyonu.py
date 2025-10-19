@@ -119,3 +119,4 @@ if __name__ == "__main__":
     yki = YerKontrolIstasyonu(HOST, PORT_TELEMETRI,PORT_VIDEO)
     yki.baslat()
             
+
