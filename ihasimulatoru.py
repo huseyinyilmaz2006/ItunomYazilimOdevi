@@ -7,7 +7,7 @@ import cv2
 import sys
 
 PORT_TELEMETRI=5000
-PORT_VIDEO=5005
+PORT_VIDEO=5001
 HOST="127.0.0.1"
 
 class IHAsimulator(object):
@@ -92,3 +92,4 @@ class IHAsimulator(object):
 if __name__ == "__main__":
     simulator = IHAsimulator(HOST,PORT_TELEMETRI,PORT_VIDEO)
     simulator.baslat()
+
